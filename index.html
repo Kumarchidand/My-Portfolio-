@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio 🚀</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   
+   <link rel="stylesheet" href="syle.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Kumar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-primary ms-3" id="download1">
+            Download CV <i class="fas fa-download ms-2"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="wave-animation"></div>
+      <div class="wave-animation"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-lg-6 order-lg-1 order-2"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <span
+              class="hero-tag animate__animated animate__pulse animate__infinite"
+              >Kumar Chidanandam</span
+            >
+            <h1 class="hero-title">
+              I'm <br />
+              <span class="text-animation"></span>
+            </h1>
+            <p class="hero-description">
+              Experienced frontend developer with a passion for creating
+              visually stunning and user-friendly websites.
+            </p>
+            <div class="d-flex mb-4">
+              <button class="btn btn-primary me-3 px-4 py-2">Hire Me</button>
+              <button class="btn btn-outline-primary px-4 py-2" id="download2">
+                Download CV <i class="fas fa-download ms-2"></i>
+              </button>
+            </div>
+            <div class="d-flex">
+              <a
+                href="https://www.instagram.com/kumarchidanandam/"
+                class="social-icon text-dark"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kumar-chidanandam-79a043225/"
+                class="social-icon text-dark"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="mailto:kchidanandam000@gmail.com"
+                class="social-icon text-dark"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://github.com/Kumarchidand"
+                class="social-icon text-dark"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-lg-2 order-1 mb-5 mb-lg-0"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <div class="hero-img-container text-center">
+              <!-- <img
+                src="https://cdni.iconscout.com/illustration/premium/thumb/coder-illustration-download-in-svg-png-gif-file-formats--programmer-developer-developing-programming-businex-colorful-pack-business-illustrations-2895977.png?f=webp"
+                alt="Profile Image"
+                class="hero-img img-fluid"
+              /> -->
+              <img
+                src="img.jpg"
+                style="width: 50%; height: auto"
+                class="hero-img img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <div class="scroll-btn"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="text-center section-title" data-aos="fade-up">About Me</h2>
+        <div class="row mt-5">
+          <div class="col-lg-6 mb-4" data-aos="fade-right">
+            <div class="about-card">
+              <h3 class="mb-4">My Introduction</h3>
+              <p class="mb-4">
+                I am well-versed in HTML, CSS and JavaScript, and other cutting
+                edge frameworks and libraries, which allows me to implement
+                interactive features. Additionally, I have experience working
+                with content management systems (CMS) like WordPress.
+              </p>
+              <button class="btn btn-primary" id="btn3">
+                Download CV <i class="fas fa-download ms-2"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="about-card h-100">
+                  <h4 class="mb-3">Frontend</h4>
+                  <div>
+                    <span class="skill-badge d-block mb-2">HTML</span>
+                    <span class="skill-badge d-block mb-2">CSS</span>
+                    <span class="skill-badge d-block mb-2">JavaScript</span>
+                    <span class="skill-badge d-block mb-2">React</span>
+                    <span class="skill-badge d-block">Vue</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="about-card h-100">
+                  <h4 class="mb-3">Backend</h4>
+                  <div>
+                    <span class="skill-badge d-block mb-2">Node.js</span>
+                    <span class="skill-badge d-block mb-2">Express</span>
+                    <span class="skill-badge d-block mb-2">Java Spring</span>
+                    <span class="skill-badge d-block mb-2">Spring</span>
+                    <span class="skill-badge d-block">JDBC</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="about-card h-100">
+                  <h4 class="mb-3">Database</h4>
+                  <div>
+                    <span class="skill-badge d-block mb-2">MongoDB</span>
+                    <span class="skill-badge d-block">MySQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="text-center section-title" data-aos="fade-up">
+          My Projects
+        </h2>
+        <div class="row mt-5">
+          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="project-card">
+              <i class="fas fa-bag-shopping project-icon"></i>
+              <h3>Completed</h3>
+              <p>15+ Finished Projects</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="project-card">
+              <i class="fas fa-id-card-clip project-icon"></i>
+              <h3>Experience</h3>
+              <p>3+ Years in Development</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="project-card">
+              <i class="fas fa-award project-icon"></i>
+              <h3>Achievements</h3>
+              <p>5+ Certifications</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="text-center section-title" data-aos="fade-up">
+          Get In Touch
+        </h2>
+        <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+          Do you have a project in your mind, contact me here
+        </p>
+        <div class="row mt-5">
+          <div class="col-lg-5 mb-4" data-aos="fade-right">
+            <div class="contact-card">
+              <h3 class="mb-4">Find Me ⤵️</h3>
+              <div class="contact-info">
+                <i class="fas fa-envelope me-3"></i> Email:
+                Kchidanandam@gmail.com
+              </div>
+              <div class="contact-info">
+                <i class="fas fa-phone me-3"></i> Tel: +91 8260493292
+              </div>
+              <div class="contact-info">
+                <i class="fas fa-map-marker-alt me-3"></i> Location: India
+              </div>
+              <div class="d-flex mt-4">
+                <a
+                  href="https://www.instagram.com/kumarchidanandam/"
+                  class="social-icon text-dark me-3"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kumar-chidanandam-79a043225/"
+                  class="social-icon text-dark me-3"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="mailto:kchidanandam000@gmail.com"
+                  class="social-icon text-dark me-3"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a
+                  href="https://github.com/Kumarchidand"
+                  class="social-icon text-dark"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <button type="submit" class="submit-btn mt-3">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="mb-4">Kumar Chidanandam</h2>
+          <div class="footer-links mb-4">
+            <a href="#home" class="text-decoration-none">Home</a>
+            <a href="#about" class="text-decoration-none">About</a>
+            <a href="#projects" class="text-decoration-none">Projects</a>
+            <a href="#contact" class="text-decoration-none">Contact</a>
+          </div>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              href="https://www.instagram.com/kumarchidanandam/"
+              class="social-icon text-dark me-3"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kumar-chidanandam-79a043225/"
+              class="social-icon text-dark me-3"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="mailto:kchidanandam000@gmail.com"
+              class="social-icon text-dark me-3"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://github.com/Kumarchidand"
+              class="social-icon text-dark"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container text-center">
+          <p class="mb-0">Copyright © 2025 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Initialize AOS (you may be missing this) -->
+<script>
+  AOS.init();
+</script>
+
+
+<script src="index.js"></script>
+
+  </body>
+</html>
